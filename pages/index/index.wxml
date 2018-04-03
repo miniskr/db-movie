@@ -1,0 +1,24 @@
+<!--index.wxml-->
+<scroll-view scroll-y="true" lower-threshold="200" style='height: 100%'>
+    <view class="list-item">
+    <view class='movie-item'>
+        <image class='poster' mode='widthFix' src='http://douban.newfq.com/qdZOLbw6wcQ5Tlkh_7tMG?imageMogr2/thumbnail/x1680/crop/1080x1600'></image>
+        <view class='title'>
+            <text>标题 <text class='rate'>8.5</text></text>
+        </view>
+        <view class='info'>
+            <text>爱情 / 搞笑 / 2016</text>
+        </view>
+    </view>
+
+    <view class='movie-item'>
+        <image class='poster' mode='widthFix' src='http://douban.newfq.com/qdZOLbw6wcQ5Tlkh_7tMG?imageMogr2/thumbnail/x1680/crop/1080x1600'></image>
+        <view class='title'>
+            <text>标题 <text class='rate'>8.5</text></text>
+        </view>
+        <view class='info'>
+            <text>爱情 / 搞笑 / 2016</text>
+        </view>
+    </view>
+</view>
+</scroll-view>
