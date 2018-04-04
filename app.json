@@ -1,36 +1,38 @@
 {
-    "pages": [
-        "pages/index/index",
-        "pages/logs/logs",
-        "pages/subject/subject",
-        "pages/user/user"
-    ],
-    "window": {
-        "backgroundTextStyle": "light",
-        "navigationBarBackgroundColor": "#fff",
-        "navigationBarTitleText": "电影预告",
-        "navigationBarTextStyle": "black"
-    },
-    "tabBar": {
-      "backgroundColor": "#fff",
-      "list": [
-        {
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/subject/subject",
+    "pages/user/user",
+    "pages/movie-detail/movie-detail"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "电影预告",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "backgroundColor": "#fff",
+    "list": [
+      {
         "pagePath": "pages/index/index",
         "text": "首页",
         "iconPath": "/assets/image/index.png",
         "selectedIconPath": "/assets/image/index-active.png"
-      },{
-          "pagePath": "pages/subject/subject",
+      },
+      {
+        "pagePath": "pages/subject/subject",
         "text": "分类",
         "iconPath": "/assets/image/subject.png",
         "selectedIconPath": "/assets/image/subject-active.png"
-      },{
+      },
+      {
         "pagePath": "pages/user/user",
         "text": "用户",
         "iconPath": "/assets/image/user.png",
         "selectedIconPath": "/assets/image/user-active.png"
-    }
-      
-      ]
-    }
+      }
+    ]
+  }
 }
